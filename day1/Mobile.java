@@ -1,28 +1,24 @@
-package week1.day1;
+package Week3.day1;
 
 public class Mobile {
-	
-	public void sendSMS() {
-		// TODO Auto-generated method stub
-		
-		System.out.println("From OPPO");
 
-	}
-	
-	private void makeCall() {
-		// TODO Auto-generated method stub
+		public void sendMessage() {
+			
+			System.out.println("I can send a message using mobile");
+			
+		}
 		
-		System.out.println("Calling My Friend");
-
-	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		protected void makeCall() {
+			
+			System.out.println("I can make a call using mobile");
+			
+		}
 		
-		Mobile Contact = new Mobile();
-		Contact.sendSMS();
-		Contact.makeCall();
+		public void saveContact() {
+			
+			System.out.println("I can save the contact using mobile");
+		}
 
 	}
 
-}
+
